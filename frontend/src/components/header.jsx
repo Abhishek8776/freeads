@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import logo from "../assets/images/logo.jpg";
 import { Link, useNavigate } from "react-router-dom";
-import AdCreateModal from "./AdCreateModal";
+import AdCreateModal from "./adCreateModal";
 import { BACKEND_URL } from "../config";
 import { ToastContainer, toast } from "react-toastify";
 
