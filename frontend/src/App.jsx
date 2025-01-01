@@ -3,7 +3,7 @@ import Home from "./components/home";
 import SignUp from "./components/signup";
 import SignIn from "./components/signin";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import AdCreate from "./components/AdCreateModal";
+import AdCreate from "./components/adCreateModal";
 import UserProfile from "./components/profile";
 import { AuthContext } from "./utils/AuthContext";
 import { useState, useEffect } from "react";
