@@ -4,18 +4,7 @@ services:
     build: ./backend
     ports:
       - "8000:8000"
-    networks:
-      - app-network  # Define a custom network for communication between services
-
   frontend:
     build: ./frontend
     ports:
       - "80:80"
-    depends_on:
-      - backend  # Ensure backend starts before frontend
-    networks:
-      - app-network  # Attach frontend to the same network as backend
-
-networks:
-  app-network:
-    driver: bridge  # Use the default bridge driver for communication
